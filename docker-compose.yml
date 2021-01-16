@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    image: FILL_IN.dkr.ecr.eu-central-1.amazonaws.com/diabetes
+    build: .
+    ports:
+      - "5000:5000"
+    expose:
+      - "5000"
